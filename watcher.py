@@ -23,6 +23,8 @@ from pathlib import Path
 HOTELS_URL = os.environ.get("TARGET_URL", "")
 STATE_FILE = Path(os.environ.get("STATE_FILE", Path(__file__).with_name("state.json")))
 ERROR_REPEAT_SECONDS = 6 * 3600
+# 47h rather than 48h so the 2-hour schedule jitter never pushes the heartbeat a whole slot later.
+HEARTBEAT_SECONDS = 47 * 3600
 MIN_EXPECTED_HOTELS = int(os.environ.get("MIN_EXPECTED_HOTELS", "1"))
 BROWSER_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -167,6 +169,8 @@ def run_check() -> None:
     available_total = sum(1 for info in current_hotels.values() if info["available"])
     print(f"Hotels listed: {len(current_hotels)} ({available_total} available)")
 
+    now_epoch = time.time()
+    last_heartbeat = state_map.get("heartbeat", now_epoch)
     if "hotels" not in state_map:
         print("First run: saving baseline, no notification.")
     else:
@@ -178,11 +182,20 @@ def run_check() -> None:
             )
         else:
             print("No changes.")
+        if now_epoch - last_heartbeat >= HEARTBEAT_SECONDS:
+            notify(
+                "Hotel watcher: still running",
+                f"Last check OK: {len(current_hotels)} listed, {available_total} available.",
+            )
+            last_heartbeat = now_epoch
 
     # Saved only after notify() succeeded, so a failed email is retried on the next run.
     # Only what the comparison needs: titles/URLs would make the public state.json identifiable.
-    save_state({"hotels": {pid: {"price": info["price"], "available": info["available"]}
-                           for pid, info in current_hotels.items()}})
+    save_state({
+        "hotels": {pid: {"price": info["price"], "available": info["available"]}
+                   for pid, info in current_hotels.items()},
+        "heartbeat": last_heartbeat,
+    })
 
 
 def report_error(error_text: str) -> None:
