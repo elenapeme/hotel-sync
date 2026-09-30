@@ -1,0 +1,208 @@
+{
+  "hotels": {
+    "1205": {
+      "price": "€ 140.00",
+      "available": false
+    },
+    "1204": {
+      "price": "€ 140.00",
+      "available": false
+    },
+    "1206": {
+      "price": "€ 195.00",
+      "available": false
+    },
+    "1207": {
+      "price": "€ 245.00",
+      "available": false
+    },
+    "1190": {
+      "price": "€ 95.00",
+      "available": false
+    },
+    "1191": {
+      "price": "€ 149.00",
+      "available": false
+    },
+    "1192": {
+      "price": "€ 204.00",
+      "available": false
+    },
+    "1193": {
+      "price": "€ 204.00",
+      "available": false
+    },
+    "1194": {
+      "price": "€ 149.00",
+      "available": false
+    },
+    "1195": {
+      "price": "€ 200.00",
+      "available": false
+    },
+    "1196": {
+      "price": "€ 180.00",
+      "available": false
+    },
+    "1197": {
+      "price": "€ 200.00",
+      "available": false
+    },
+    "1198": {
+      "price": "€ 200.00",
+      "available": false
+    },
+    "1199": {
+      "price": "€ 206.00",
+      "available": false
+    },
+    "1200": {
+      "price": "€ 145.00",
+      "available": false
+    },
+    "1201": {
+      "price": "€ 228.00",
+      "available": false
+    },
+    "1202": {
+      "price": "€ 242.00",
+      "available": false
+    },
+    "1186": {
+      "price": "€ 85.00",
+      "available": false
+    },
+    "1188": {
+      "price": "€ 142.00",
+      "available": false
+    },
+    "1187": {
+      "price": "€ 142.00",
+      "available": false
+    },
+    "1189": {
+      "price": "€ 195.00",
+      "available": false
+    },
+    "1182": {
+      "price": "€ 272.00",
+      "available": true
+    },
+    "1176": {
+      "price": "€ 258.00",
+      "available": false
+    },
+    "1177": {
+      "price": "€ 270.00",
+      "available": false
+    },
+    "1178": {
+      "price": "€ 327.00",
+      "available": false
+    },
+    "1180": {
+      "price": "€ 412.00",
+      "available": false
+    },
+    "1179": {
+      "price": "€ 385.00",
+      "available": false
+    },
+    "1181": {
+      "price": "€ 530.00",
+      "available": false
+    },
+    "1173": {
+      "price": "€ 187.00",
+      "available": false
+    },
+    "1174": {
+      "price": "€ 207.00",
+      "available": false
+    },
+    "1175": {
+      "price": "€ 221.00",
+      "available": false
+    },
+    "1167": {
+      "price": "€ 83.00",
+      "available": false
+    },
+    "1168": {
+      "price": "€ 137.00",
+      "available": false
+    },
+    "1170": {
+      "price": "€ 169.00",
+      "available": false
+    },
+    "1169": {
+      "price": "€ 139.00",
+      "available": false
+    },
+    "1171": {
+      "price": "€ 189.00",
+      "available": false
+    },
+    "1172": {
+      "price": "€ 208.00",
+      "available": false
+    },
+    "1159": {
+      "price": "€ 128.00",
+      "available": false
+    },
+    "1160": {
+      "price": "€ 191.00",
+      "available": false
+    },
+    "1161": {
+      "price": "€ 245.00",
+      "available": false
+    },
+    "1162": {
+      "price": "€ 320.00",
+      "available": false
+    },
+    "1163": {
+      "price": "€ 398.00",
+      "available": false
+    },
+    "1153": {
+      "price": "€ 209.00",
+      "available": false
+    },
+    "1154": {
+      "price": "€ 264.00",
+      "available": false
+    },
+    "1155": {
+      "price": "€ 387.00",
+      "available": false
+    },
+    "1144": {
+      "price": "€ 85.00",
+      "available": false
+    },
+    "1145": {
+      "price": "€ 133.00",
+      "available": false
+    },
+    "1148": {
+      "price": "€ 133.00",
+      "available": false
+    },
+    "1147": {
+      "price": "€ 203.00",
+      "available": false
+    },
+    "1149": {
+      "price": "€ 203.00",
+      "available": false
+    },
+    "1150": {
+      "price": "€ 203.00",
+      "available": false
+    }
+  }
+}
