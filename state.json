@@ -52,6 +52,10 @@
       "price": "€ 200.00",
       "available": false
     },
+    "1211": {
+      "price": "€ 344.00",
+      "available": true
+    },
     "1199": {
       "price": "€ 206.00",
       "available": false
