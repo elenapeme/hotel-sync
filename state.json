@@ -1,5 +1,9 @@
 {
   "hotels": {
+    "1212": {
+      "price": "€ 159.00",
+      "available": false
+    },
     "1205": {
       "price": "€ 140.00",
       "available": false
@@ -54,7 +58,7 @@
     },
     "1211": {
       "price": "€ 344.00",
-      "available": true
+      "available": false
     },
     "1199": {
       "price": "€ 206.00",
