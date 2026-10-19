@@ -4,6 +4,14 @@
       "price": "€ 159.00",
       "available": false
     },
+    "1214": {
+      "price": "€ 159.00",
+      "available": true
+    },
+    "1215": {
+      "price": "€ 231.00",
+      "available": false
+    },
     "1205": {
       "price": "€ 140.00",
       "available": false
