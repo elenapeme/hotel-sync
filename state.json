@@ -221,9 +221,5 @@
       "available": false
     }
   },
-  "heartbeat": 1792562570.8300953,
-  "error": {
-    "message": "urllib.error.HTTPError: HTTP Error 404: Not Found",
-    "at": 1792711414.6966224
-  }
+  "heartbeat": 1792562570.8300953
 }
