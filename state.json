@@ -224,6 +224,6 @@
   "heartbeat": 1795437857.3519518,
   "error": {
     "message": "ScrapeError: The product list container was not found (layout changed or blocked).",
-    "at": 1795554721.4809072
+    "at": 1795579966.485168
   }
 }
