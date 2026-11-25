@@ -221,9 +221,5 @@
       "available": false
     }
   },
-  "heartbeat": 1795437857.3519518,
-  "error": {
-    "message": "ScrapeError: The product list container was not found (layout changed or blocked).",
-    "at": 1795579966.485168
-  }
+  "heartbeat": 1795616700.08231
 }
